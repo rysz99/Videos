@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <title>Ulubione filmy!</title>
+        <meta name="description" content="Oto strona internetowa utworzona przy użyciu HTML i CSS." />
+        <meta name="keywords" content="HTML, CSS, strona internetowa, programowanie" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1" />
+        
+        <style>
+        
+            body
+            {
+                background-color: black;
+                color: white;
+                text-align: center;
+                font-weight: bold;
+            }
+            #container
+            {
+                width: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #logo
+            {
+                background-color: indianred;
+                padding: 15px;
+                letter-spacing: 14px;
+                text-transform: uppercase;
+                text-shadow: 
+                    3px 3px 0 purple,
+                    -3px 3px 0 purple,
+                    -3px -3px 0 purple,
+                    3px -3px 0 purple;
+            }
+            #nav
+            {
+               float: left;
+               background-color: gray;
+               min-height: 420px; 
+               width: 180px; 
+               padding: 270px 5px 10px; 
+            }
+            #content
+            {
+               float: left;
+               background-color: darkgreen;
+               width: 610px; 
+               padding: 30px 0 20px; 
+            }
+            #ad
+            {
+               float: left;
+               background-color: gray;
+               padding: 50px 20px 10px; 
+               min-height: 640px;
+               width: 160px; 
+            }
+            #footer
+            {
+                clear: both;
+                background-color: indianred;
+                padding: 20px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="logo">
+                <h1>Moje ulubione filmy</h1>
+            </div>
+            
+            <div id="nav">
+                Trolle<br /><br />
+                Larva: Na wyspie
+            </div>
+            
+            <div id="content">
+                Komedia: <a href="https://www.filmweb.pl/film/Trolle-2016-597949" title="Zobacz na FilmWebie!" target="_blank">Trolle (2016)</a>
+                <br /><br />
+                <a href="https://www.filmweb.pl/film/Trolle-2016-597949" title="A to rozrabiaki!" target="_blank"><img src="trolls.jpg" alt="Trolle" /></a>
+                <br /><br />
+                Komedia: <a href="https://www.filmweb.pl/film/Larva%3A+Na+wyspie+Film-2020-860749" target="_blank" title="Zobacz na FilmWebie!">Larva: Na wyspie (2020)</a>
+                <br /><br />
+                <a href="https://www.filmweb.pl/film/Larva%3A+Na+wyspie+Film-2020-860749" target="_blank" title="W kupie raźniej!"><img src="larva.jpg" alt="Larva" /></a>
+            </div>
+            
+            <div id="ad">
+                <a href="index.html" target="_blank"><img src="reklama.jpg" alt="Reklama" width="160" height="600" /></a>
+            </div>
+            
+            <div id="footer">Moje ulubione filmy &copy; Ryszard Mochalski</div>
+        </div>
+    </body>
+</html>
